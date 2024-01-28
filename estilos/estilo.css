@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    background-color: rgb(182, 254, 230);
+}
+
+#logoPoke {
+    width: 250px;
+    height: 100px;
+    margin-left: 490px;
+    margin-top: 3px;
+}
+
+#titulo {
+    font-family: 'Acme', sans-serif;
+    padding: 8px;
+    font-size: 50px;
+    color: rgb(255, 213, 0);
+    -webkit-text-stroke: 1px rgba(9, 83, 244, 0.676);
+    width: 80px;
+    margin-left: 470px;
+    margin-top: -9px;
+}
+
+#btnDame10{
+    background-color: rgb(255, 174, 0);
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    color:rgb(241, 239, 234);
+    border-color: rgb(255, 174, 0);
+    border-radius: 8px;
+    width: 20%;
+}
+
+#divPokemons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contenedorSeleccion{
+    font-family: 'Acme', sans-serif;
+    width: 500px;
+    /*border: 5px solid rgb(33, 188, 123);*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:40px;
+    
+
+}
+
+#contenedorSeleccion li {
+    list-style: none;
+    width:240px;
+    height: 200px;
+    background-color: rgb(244, 244, 136);
+    border: 3px solid rgb(9, 123, 106);
+    border-radius: 40px;
+    padding: 4px;
+    margin-top: 60px;
+    margin-left: 10px;
+    flex: 1;
+    margin-right: 5px;
+}
+
+
+li img {
+    height: 100px;
+     }
+
+#nombreTarjeta {
+    font-size: 18px;
+}   
+#contenedorSeleccion li ul {
+    float: left;
+    margin-left: 30px;
+}
+
+#contenedorSeleccion li button {
+    float: left;
+    margin-left: 140px;
+    background-color: rgb(255, 174, 0);
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+    color:rgb(241, 239, 234);
+    border-color: rgb(255, 174, 0);
+    border-radius: 8px;
+ }
+
+
+
+#contenedorInfo {
+    margin-top: -1300px;
+    /*border: 5px solid rgb(33, 188, 123);*/
+    height: 500px;
+    width: 400px;
+    margin-left: 700px; 
+    float: right;
+}
+
+
+#contenedorInfo li {
+    list-style: none;
+    font-family: 'Acme', sans-serif;
+    color: rgb(33, 188, 123);
+    background-color: rgb(246, 246, 145);
+    width: 300px;
+    height: 350px;
+    border: 5px solid rgb(33, 188, 123);
+    border-radius: 8px;
+    margin-top: 40px;
+ }
+
+
+ #nombrePoke {
+    font-size: 15px;
+ }
